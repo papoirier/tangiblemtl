@@ -23,20 +23,25 @@
 
 <body>
 <div id="wrap">
-	
 	<div class="container">
-
-			<select id="lang_selector">
-				<option value="fr_lang">Français</option>
-				<option value="en_lang">English</option>
-			</select>
+			
 	</div>	
-	
-	
 	<!-- COVER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<header>
-		<section id="cover">
-		</section> <!-- #cover -->
+		<div id="cover" class="container">
+		</div> <!-- #cover -->
+		<div id="undercover" class="container">
+			<div class="row">
+				<div class="tagline span6">
+				</div> <!-- .tagline -->
+				<div class="language span6">
+					<select id="lang_selector">
+						<option value="fr_lang">Français</option>
+						<option value="en_lang">English</option>
+					</select>
+				</div> <!-- .tagline -->
+			</div> <!-- .row -->
+		</div> <!-- #cover -->
 	</header>
 	
 	<!-- PRODUCTS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
@@ -71,13 +76,12 @@
 	<!-- FOOTER  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	<footer>
 	</footer>
-	
 </div> <!-- #wrap -->
 
 <!-- JS - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/jquery.cookie.js"></script>
 <script src="js/tangible.js"></script>
-<script src="js/analytics.js"></script>
+<!-- script src="js/analytics.js"></script -->
 </body>
 </html>

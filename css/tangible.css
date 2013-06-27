@@ -67,7 +67,7 @@ header li {
 header li a {
 	color: #FFFFFF;
 }
-.langue li.active {
+.language li.active {
 	font-family: ApercuBold;
 	font-weight: bold;
 	text-decoration: underline;

@@ -44,8 +44,8 @@ $(document).ready(function() {
 			// reset content
 			$("section").empty();
 			$("section").html("<div class=\"container\"></div>");
-			$("section#cover").html("<div class=\"container\"><div class=\"site_title\"></div></div>" + 
-											"<div class=\"container\"><div class=\"row\"><div class=\"span6 tagline\"></div><div class=\"span6\"></div></div></div>");
+			$("#cover").html("<div class=\"container\"><div class=\"site_title\"></div></div>");
+			$("#undercover.container > .row > .tagline").html("<div class=\"container\"><div class=\"row\"><div class=\"span6 tagline\"></div></div></div></div>");
 
 			/*
 			// cover
@@ -64,8 +64,8 @@ $(document).ready(function() {
 			// ENGLISH ----------------------------------------------------------------			
 			if(lang == "en_lang") {
 				// cover
-				$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
-				$("#cover" + inContainer + " > .row > .tagline").append('<h4>' + data.cover.tagline.en + '</h4>');
+				//$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
+				$("#undercover.container > .row > .tagline").append('<h4>' + data.cover.tagline.en + '</h4>');
 				// main content
 				$("#products" + inContainer).append('<h1>' + data.products.title.en + '</h1>');
 				$("#realisations" + inContainer).append('<h1>' + data.realisations.title.en + '</h1>');
@@ -99,8 +99,8 @@ $(document).ready(function() {
 			// FRENCH -----------------------------------------------------------------
 			else {
 				// cover
-				$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
-				$("#cover" + inContainer + " > .row > .tagline").append('<h4>' + data.cover.tagline.fr + '</h4>');
+				
+				$("#undercover.container > .row > .tagline").append('<h4>' + data.cover.tagline.fr + '</h4>');
 				// main content
 				$("#products" + inContainer).append('<h1>' + data.products.title.fr + '</h1>');
 				$("#realisations" + inContainer).append('<h1>' + data.realisations.title.fr + '</h1>');
@@ -129,9 +129,17 @@ $(document).ready(function() {
 				}
 				for (var i = 0; i < data.faq.copy.fr.length; i++) {
 					$("#faq" + inContainer).append('<p>' + data.faq.copy.fr[i] + '</p>');
-				}
-					
+				}		
 			}
+			
+			// site title
+			$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
+			
+			// language selector
+			//$("#cover" + inContainer + " > .row > .language").append("<select id=\"lang_selector\"><option value=\"fr_lang\">Français</option><option value=\"en_lang\">English</option></select>");
+			/*
+			
+			 */
 			
 			// images
 			for (var i = 0; i < data.products.images.length; i++) {
