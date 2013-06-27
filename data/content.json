@@ -163,22 +163,6 @@
         },
         "news": {
             "title": {
-                "fr": "Nouvelles, etc.",
-                "en": "News, etc."
-            },
-            "hyperlinks": {
-                "fr": [
-                    "<a href=\"#\">Dossier de presse [zip, 1 Mb]</a>",
-                    "<a href=\"#\">Articles</a>"
-                ],
-                "en": [
-                    "<a href=\"#\">Press kit [zip, 1 Mb]</a>",
-                    "<a href=\"#\">Articles</a>"
-                ]
-            }
-        },
-        "media": {
-            "title": {
                 "fr": "Médias",
                 "en": "Media"
             },
@@ -195,13 +179,29 @@
                 ]
             }
         },
+        "medias": {
+            "title": {
+                "fr": "Nouvelles, etc.",
+                "en": "News, etc."
+            },
+            "hyperlinks": {
+                "fr": [
+                    "<a href=\"#\">Dossier de presse [zip, 1 Mb]</a>",
+                    "<a href=\"#\">Articles</a>"
+                ],
+                "en": [
+                    "<a href=\"#\">Press kit [zip, 1 Mb]</a>",
+                    "<a href=\"#\">Articles</a>"
+                ]
+            }
+        },
         "contact": {
             "title": {
                 "fr": "Contact",
                 "en": "Contact"
             },
             "copy": [
-                "<a href=\"mailto:info@tangiblemtl.ca\">info@tangiblemtl.ca</a><",
+                "<a href=\"mailto:info@tangiblemtl.ca\">info@tangiblemtl.ca</a>",
                 "Tangible Studio Inc.",
                 "3484 avenue Laval <br>Montréal (QC) H2X 3C8"
             ]

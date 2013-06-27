@@ -40,13 +40,15 @@ $(document).ready(function() {
 			
 			var inContainer = "> .container";
 			var inRow = "> .row";
+			var inFooter = "footer > .container > .row >";
+			
 			
 			// reset content
-			$("section").empty();
-			$("section").html("<div class=\"container\"></div>");
 			$("#cover").html("<div class=\"container\"><div class=\"site_title\"></div></div>");
 			$("#undercover.container > .row > .tagline").html("<div class=\"container\"><div class=\"row\"><div class=\"span6 tagline\"></div></div></div></div>");
-
+			$("section").html("<div class=\"container\"></div>");
+			$("footer > .container > .row > .span3").empty();
+			
 			/*
 			// cover
 			$("#cover").empty();
@@ -64,7 +66,6 @@ $(document).ready(function() {
 			// ENGLISH ----------------------------------------------------------------			
 			if(lang == "en_lang") {
 				// cover
-				//$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
 				$("#undercover.container > .row > .tagline").append('<h4>' + data.cover.tagline.en + '</h4>');
 				// main content
 				$("#products" + inContainer).append('<h1>' + data.products.title.en + '</h1>');
@@ -74,7 +75,10 @@ $(document).ready(function() {
 				$("#mission" + inContainer).append('<h1>' + data.mission.title.en + '</h1>');
 				$("#faq" + inContainer).append('<h1>' + data.faq.title.en + '</h1>');
 				// footer
-				//$("#liens").append('<h1>' + data.liens.title.en + '</h1>');
+				$(inFooter + ".links").append('<h4>' + data.footer.links.title.en + '</h4>');
+				$(inFooter + ".news").append('<h4>' + data.footer.news.title.en + '</h4>');
+				$(inFooter + ".medias").append('<h4>' + data.footer.medias.title.en + '</h4>');
+				$(inFooter + ".contact").append('<h4>' + data.footer.contact.title.en + '</h4>');
 				
 				// paragraphs
 				for (var i = 0; i < data.products.copy.en.length; i++) {
@@ -95,11 +99,28 @@ $(document).ready(function() {
 				for (var i = 0; i < data.faq.copy.en.length; i++) {
 					$("#faq" + inContainer).append('<p>' + data.faq.copy.en[i] + '</p>');
 				}
+				// footer
+				var openUl = $(inFooter + ".span3").append('<ul>');
+				var closeUl = $(inFooter + ".span3").append('</ul>');
+				openUl;
+				for (var i = 0; i < data.footer.links.hyperlinks.en.length; i++) {
+					$(inFooter + ".links > ul").append('<li>' + data.footer.links.hyperlinks.en[i] + '</li>');
+				}
+				closeUl;
+				openUl;
+				for (var i = 0; i < data.footer.news.hyperlinks.en.length; i++) {
+					$(inFooter + ".news > ul").append('<li>' + data.footer.news.hyperlinks.en[i] + '</li>');
+				}
+				closeUl;	
+				openUl;
+				for (var i = 0; i < data.footer.medias.hyperlinks.en.length; i++) {
+					$(inFooter + ".medias > ul").append('<li>' + data.footer.medias.hyperlinks.en[i] + '</li>');
+				}
+				closeUl;
 			}
 			// FRENCH -----------------------------------------------------------------
 			else {
 				// cover
-				
 				$("#undercover.container > .row > .tagline").append('<h4>' + data.cover.tagline.fr + '</h4>');
 				// main content
 				$("#products" + inContainer).append('<h1>' + data.products.title.fr + '</h1>');
@@ -109,7 +130,10 @@ $(document).ready(function() {
 				$("#mission" + inContainer).append('<h1>' + data.mission.title.fr + '</h1>');
 				$("#faq" + inContainer).append('<h1>' + data.faq.title.fr + '</h1>');
 				// footer
-				//$("#liens").append('<h1>' + data.liens.title.fr + '</h1>');
+				$(inFooter + ".links").append('<h4>' + data.footer.links.title.fr + '</h4>');
+				$(inFooter + ".news").append('<h4>' + data.footer.news.title.fr + '</h4>');
+				$(inFooter + ".medias").append('<h4>' + data.footer.medias.title.fr + '</h4>');
+				$(inFooter + ".contact").append('<h4>' + data.footer.contact.title.fr + '</h4>');
 				
 				// paragraphs
 				for (var i = 0; i < data.products.copy.fr.length; i++) {
@@ -129,18 +153,29 @@ $(document).ready(function() {
 				}
 				for (var i = 0; i < data.faq.copy.fr.length; i++) {
 					$("#faq" + inContainer).append('<p>' + data.faq.copy.fr[i] + '</p>');
-				}		
+				}
+				// footer
+				var openUl = $(inFooter + ".span3").append('<ul>');
+				var closeUl = $(inFooter + ".span3").append('</ul>');
+				openUl;
+				for (var i = 0; i < data.footer.links.hyperlinks.fr.length; i++) {
+					$(inFooter + ".links > ul").append('<li>' + data.footer.links.hyperlinks.fr[i] + '</li>');
+				}
+				closeUl;
+				openUl;
+				for (var i = 0; i < data.footer.news.hyperlinks.fr.length; i++) {
+					$(inFooter + ".news > ul").append('<li>' + data.footer.news.hyperlinks.fr[i] + '</li>');
+				}
+				closeUl;	
+				openUl;
+				for (var i = 0; i < data.footer.medias.hyperlinks.fr.length; i++) {
+					$(inFooter + ".medias > ul").append('<li>' + data.footer.medias.hyperlinks.fr[i] + '</li>');
+				}
+				closeUl;			
 			}
-			
+			// CONSTANT ----------------------------------------------------------------
 			// site title
 			$("#cover" + inContainer + " > .site_title").append('<h1>' + data.cover.site_title + '</h1>');
-			
-			// language selector
-			//$("#cover" + inContainer + " > .row > .language").append("<select id=\"lang_selector\"><option value=\"fr_lang\">Français</option><option value=\"en_lang\">English</option></select>");
-			/*
-			
-			 */
-			
 			// images
 			for (var i = 0; i < data.products.images.length; i++) {
 				$("#products" + inContainer).append('<img src=\"' + data.products.images[i] + '\" alt=\"product image\" title=\"product image\">');
@@ -148,6 +183,12 @@ $(document).ready(function() {
 			for (var i = 0; i < data.realisations.images.length; i++) {
 				$("#realisations" + inContainer).append('<img src=\"' + data.realisations.images[i] + '\" alt=\"realisations image\" title=\"realisations image\">');
 			}
+			// footer > contact
+			openUl;
+			for (var i = 0; i < data.footer.contact.copy.length; i++) {
+				$(inFooter + ".contact > ul").append('<li>' + data.footer.contact.copy[i] + '</li>');
+			}
+			closeUl;
 		};
 	  	
 });
