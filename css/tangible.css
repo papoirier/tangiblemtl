@@ -92,7 +92,7 @@ li.active a {
 
 /* CONTENTS -------------------------------------- */
 
-#couverture {
+header {
 	background: url(../img/cover.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -100,7 +100,11 @@ li.active a {
 	background-size: cover;
 	height: 30em;
 }
-header {
+#cover {
+
+}
+
+.site_title {
 	margin-top: 13em;
 }
 
