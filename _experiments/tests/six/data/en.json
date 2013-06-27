@@ -1,0 +1,15 @@
+{
+    "services": {
+        "title": "Services",
+        "copy": [
+            "The company is the shit yo."
+        ]
+    },
+    "produits": {
+        "title": "Products",
+        "copy": [
+            "par one",
+            "par two."
+        ]
+    }
+}

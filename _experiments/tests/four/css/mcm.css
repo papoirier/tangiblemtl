@@ -1,0 +1,114 @@
+/* pin.js ----------------------------------- */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: rgb(31,43,51);
+}
+header {
+  background: rgba(4, 18, 27, 0.88);
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgb(219,216,199);
+}
+footer {
+  margin-top: 72px;
+  font-size: 16px;
+  padding: 20px 0;
+  background: rgba(4, 18, 27, 0.88);
+}
+
+header .wrapper {
+  position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.pin {
+  position: absolute;
+  top: -49px;
+  right: -87px;
+}
+
+.row {}
+.left-col {
+	margin-top: 4em;
+  float: left;
+  width: 40%;
+}
+.right-col {
+  width: 30%;
+  float: left;
+}
+.left-col img { width: 100%; height: auto; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.handwritten { font-family: "Cabin Sketch"; font-size: 18px; font-weight: 400; opacity: 0.9; }
+
+.gallery .cat { text-align: center; margin: 20px; }
+.gallery .cat .cat-indicator {
+  margin-top: 10px;
+}
+.gallery img { }
+.panel {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.panel h4 {
+  margin-top: 0;
+}
+.left-nav .left-col { width: 20%; }
+.left-nav .right-col { width: 80%; }
+.left-nav .nav {
+  margin: 136px 0 0;
+  padding: 10px 20px;
+  list-style: none;
+  background: rgba(4, 18, 27, 0.88);        
+  border-radius: 3px;
+}
+.nav li { margin-bottom: 5px; }
+
+.relative { position: relative; }
+
+small { font-size: 13px; }
+
+/* mine ------------------------------------- */
+
+.bucket {
+	background-color: gray;
+	min-height: 2000px;
+}
+
+.full {
+	background-origin: padding-box;
+	background-size: cover;
+}
+
+.one {
+	background-image: url(../img/one.jpg);
+}
+
+.two {
+	background-image: url(../img/two.jpg);
+}
+

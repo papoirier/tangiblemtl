@@ -1,0 +1,16 @@
+.full {
+	background-origin: padding-box;
+	background-size: cover;
+}
+
+.one {
+	background-image: url(../img/one.jpg);
+}
+
+.two {
+	background-image: url(../img/two.jpg);
+}
+
+.container {
+}
+

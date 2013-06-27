@@ -1,0 +1,210 @@
+{
+    "cover": {
+        "site_title": "Tangible Studio",
+        "tagline": {
+            "fr": "Feutres québécois éco-responsables",
+            "en": "Sustainable <em>québécois</em> felts"
+        },
+        "images": [
+        		"img/cover.jpg"
+        ]
+    },
+    "products": {
+        "title": {
+            "fr": "Produits",
+            "en": "Products"
+        },
+        "copy": {
+            "fr": [
+                "Les pare-soleil sont en vente chez <a href=\"http://shop.galeriezoneorange.com\">Zone Orange</a>, un mignon magasin de design situé dans le Vieux-Port de Montréal."
+            ],
+            "en": [
+                "The <em>pare-soleil</em> sont en vente chez <a href=\"http://shop.galeriezoneorange.com\">Zone Orange</a>, un mignon magasin de design situé dans le Vieux-Port de Montréal."
+            ]
+        },
+        "images": [
+            "img/produits/hex-01.jpg",
+				"img/produits/ps-01.jpg",
+            "img/produits/ps-02.jpg",
+            "img/produits/ps-03.jpg",
+				"img/produits/ps-04.jpg",
+				"img/produits/ps-05.jpg",
+				"img/produits/ps-06.jpg"
+        ]
+    },
+    "realisations": {
+        "title": {
+            "fr": "Réalisations",
+            "en": "Realisations"
+        },
+        "copy": {
+           "fr": [
+               "<a href=\"http://cerclecarre.coop\">Cercle Carré</a>"
+           ],
+           "en": [
+               "<a href=\"http://cerclecarre.coop\">Cercle Carré</a>"
+           ]
+        },
+        "images": [
+            "img/realisations/cercle-01.jpg",
+            "img/realisations/cercle-02.jpg"
+        ]
+    },
+    "events": {
+        "title": {
+            "fr": "Événements à venir",
+            "en": "Events to come"
+        },
+        "copy": {
+            "fr": [
+                "De notre point de vue, toujours rien à l'horizon."
+            ],
+            "en": [
+                "Nothing in sight as far as we can see."
+            ]
+        },
+        "images": []
+    },
+    "services": {
+        "title": {
+            "fr": "Services",
+            "en": "Services"
+        },
+        "copy": {
+            "fr": [
+                "Tangible Studio produit des feutres éco-responsables, fabriqués entièrement au Québec et offerts dans une gamme de couleur complète.",
+                "L'entreprise fabrique des produits pour espaces de vie, tels des recouvrements pour murs et des plafonds, ainsi que des divisions d’espace suspendues ou auto-portantes, qui répondent aux besoins de confort sonore et visuel des espaces intérieurs.",
+                "Tangible Studio offre des services de consultation en design textile, industriel et intérieur. À titre d'exemple, l'entreprise peut aider conceptuellement et techniquement une firme d'architecture à intégrer du feutre à un espace.",
+                "L'entreprise désire repousser les limites de la matière qu'est le feutre et désire collaborer avec experts et industriels pour créer de nouveaux produits."
+            ],
+            "en": [
+                "Tangible Studio produces goddam good felt."
+            ]
+        },
+        "images": []
+    },
+    "mission": {
+        "title": {
+            "fr": "Mission",
+            "en": "Mission"
+        },
+        "copy": {
+            "fr": [
+                "Tangible Studio est une jeune entreprise qui veut offrir une alternative — à la fois profondément québécoise et à portée globale, soucieuse de l'environnement, de son contexte social et d'esthétique — aux gens qui désire incorporer du feutre à leur milieu de vie."
+            ],
+            "en": [
+                "Tangible Studio hazza mission."
+            ]
+        },
+        "images": []
+    },
+    "team": {
+        "title": {
+            "fr": "Équipe",
+            "en": "Team"
+        },
+        "copy": {
+            "fr": [
+                "Marianne-Coqulicot Mercier, présidente-fondatrice et designer",
+                "Marie-Claude Tessier, développement et designer"
+            ],
+            "en": [
+                "Marianne-Coqulicot Mercier, Founder and designer",
+                "Marie-Claude Tessier, development and designer"
+            ]
+        },
+        "images": []
+    },
+    "faq": {
+        "title": {
+            "fr": "Foire aux questions",
+            "en": "Frequently asked questions"
+        },
+        "copy": {
+            "fr": [
+                "Où puis-je acheter les produits Tangible Studio ?",
+                "Les produits sont-ils disponibles en ligne ?",
+                "Comment laver le feutre ?",
+                "Les produits (Pare-soleil, Hexalobe, Trilobe) peuvent-ils être installés à l&rsquo;extérieur ?"
+            ],
+            "en": [
+                "Where?",
+                "Online?",
+                "Washable?",
+                "Outdoors?"
+            ]
+        },
+        "images": []
+    },
+    "footer": {
+        "links": {
+            "title": {
+                "fr": "Liens",
+                "en": "Links"
+            },
+            "hyperlinks": {
+                "fr": [
+                    "<a href=\"#produits\">Produits</a>",
+                    "<a href=\"#realisations\">Réalisations</a>",
+                    "<a href=\"#events\">Événements à venir</a>",
+                    "<a href=\"#services\">Services</a>",
+                    "<a href=\"#mission\">Mission</a>",
+                    "<a href=\"#faq\">FAQ</a>"
+                ],
+                "en": [
+                    "<a href=\"#produits\">Products</a>",
+                    "<a href=\"#realisations\">Realisations</a>",
+                    "<a href=\"#events\">Events to come</a>",
+                    "<a href=\"#services\">Services</a>",
+                    "<a href=\"#mission\">Mission</a>",
+                    "<a href=\"#faq\">FAQ</a>"
+                ]
+            }
+        },
+        "news": {
+            "title": {
+                "fr": "Nouvelles, etc.",
+                "en": "News, etc."
+            },
+            "hyperlinks": {
+                "fr": [
+                    "<a href=\"#\">Dossier de presse [zip, 1 Mb]</a>",
+                    "<a href=\"#\">Articles</a>"
+                ],
+                "en": [
+                    "<a href=\"#\">Press kit [zip, 1 Mb]</a>",
+                    "<a href=\"#\">Articles</a>"
+                ]
+            }
+        },
+        "media": {
+            "title": {
+                "fr": "Médias",
+                "en": "Media"
+            },
+            "hyperlinks": {
+                "fr": [
+                    "<a href=\"http://blog.tangiblemtl.ca\">Blogue</a>",
+                    "<a href=\"https://www.facebook.com/TangibleStudioInc\">Facebook</a>",
+                    "<a href=\"http://pinterest.com/mariannecm/felt-inspirations/\">Pinterest</a>"
+                ],
+                "en": [
+                    "<a href=\"http://blog.tangiblemtl.ca\">Blog</a>",
+                    "<a href=\"https://www.facebook.com/TangibleStudioInc\">Facebook</a>",
+                    "<a href=\"http://pinterest.com/mariannecm/felt-inspirations/\">Pinterest</a>"
+                ]
+            }
+        },
+        "contact": {
+            "title": {
+                "fr": "Contact",
+                "en": "Contact"
+            },
+            "copy": [
+                "<a href=\"mailto:info@tangiblemtl.ca\">info@tangiblemtl.ca</a><",
+                "Tangible Studio Inc.",
+                "3484 avenue Laval <br>Montréal (QC) H2X 3C8"
+            ]
+        }
+    }
+}

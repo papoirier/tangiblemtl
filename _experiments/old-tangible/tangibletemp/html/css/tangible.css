@@ -1,0 +1,205 @@
+/* GLOBAL --------------------------------------------------------------------  */
+
+body {
+	font-family: "Irma Screen Regular 2", "Lucida Grande", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #000;
+}
+
+strong {
+	font-family: "Irma Screen Bold 2";
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+}
+
+p {
+	margin-bottom: 0.7em;
+}
+
+h1 {
+	font-family: "Irma Screen Bold 2";
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	line-height: 0.8em;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-family: "Irma Screen Bold 2";
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.6em;
+	margin: 1.6em 0 0 0;
+}
+
+a {
+	color: #f7931e;
+	text-decoration: none;
+}
+
+container {
+	margin: 0;
+}
+
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.about {
+	background-color: rgba(255,255,255,0.7);
+	display: block;
+	margin: 10% 0;
+	padding: 2.4em 2.4em 1.6em 2.4em;
+}
+
+.transparent {
+	background-color: #FFF;
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.5;
+}
+
+article.fr {
+	margin-top: 2.4em;
+}
+
+article.en {
+	margin-top: 1.6em;
+}
+
+article.en p {
+	font-size:70%;
+	line-height: 1.6em;
+}
+
+.links p {
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.links {
+	margin-top: 1.6em;
+}
+
+
+p.limited, ul.limited {
+	font-family: "Irma Screen Bold 2";
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	font-size: 75%;
+	line-height: 1.4em;
+	text-transform: uppercase;
+}
+
+p.small {
+	font-family: "Irma Screen Regular 2";
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	font-size: 75%;
+	line-height: 1.4em;
+}
+
+ul#myTab {
+	margin: 1.4em 0em;
+}
+
+
+/* XL --------------------------------------------------------------------  */
+
+@media screen and (max-width: 1920px) {
+
+	html {
+		background: url(../img/xl.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+}
+
+
+/* L ---------------------------------------------------------------------  */
+
+@media screen and (max-width: 1024px) {
+
+	html {
+		background: url(../img/l.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	section.about {
+		margin: 10% 0;
+	}
+	
+}
+
+/* M ---------------------------------------------------------------------  */
+
+@media screen and (max-width: 800px) {
+
+	html {
+		background: url(../img/m.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+}
+
+
+
+/* MOBILE --------------------------------------------------------------------  */
+
+@media handheld, only screen and (max-width: 640px) {
+
+	html {
+		background: url(../img/s.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	body {
+		
+	}
+	
+	img.center {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+}
+
+
+/* IPHONE 4 --------------------------------------------------------------------  */
+
+
+@media handheld, only screen and (max-width: 640px) and (min-device-pixel-ratio: 2.0) { 
+	
+	html {
+		background: url(../img/s2.png) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+}

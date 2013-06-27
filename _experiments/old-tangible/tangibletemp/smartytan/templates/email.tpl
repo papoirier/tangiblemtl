@@ -1,0 +1,1 @@
+{mailto address="info@tangiblemtl.ca" encode="javascript"}

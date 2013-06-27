@@ -1,0 +1,34 @@
+body {
+	color: #FFF;
+	font-family: Graphik;
+}
+
+.pinned {
+
+}
+
+.full {
+	background-origin: padding-box;
+	background-size: cover;
+}
+
+.one {
+	background-image: url(../img/one.jpg);
+}
+
+.two {
+	background-image: url(../img/two.jpg);
+}
+
+.container, .row {
+	height: 0px;
+}
+
+
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}

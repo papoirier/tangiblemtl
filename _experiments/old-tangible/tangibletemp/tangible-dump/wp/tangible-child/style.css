@@ -1,0 +1,568 @@
+﻿/*
+Theme Name: Tangible
+Description: Child theme for the tangible theme
+Description: TangibleMTL
+Author: Pierre-Alexandre Poirier
+Template: tangible
+*/
+
+@import url("../tangible/style.css");
+
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container_5 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 910px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 5 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_5 .grid_1 {
+	width:170px;
+}
+
+.container_5 .grid_2 {
+	width:352px;
+}
+
+.container_5 .grid_3 {
+	width:534px;
+}
+
+.container_5 .grid_4 {
+	width:716px;
+}
+
+.container_5 .grid_5 {
+	width:898px;
+}
+
+
+
+/* Prefix Extra Space >> 5 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_5 .prefix_1 {
+	padding-left:182px;
+}
+
+.container_5 .prefix_2 {
+	padding-left:364px;
+}
+
+.container_5 .prefix_3 {
+	padding-left:546px;
+}
+
+.container_5 .prefix_4 {
+	padding-left:728px;
+}
+
+
+
+/* Suffix Extra Space >> 5 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_5 .suffix_1 {
+	padding-right:182px;
+}
+
+.container_5 .suffix_2 {
+	padding-right:364px;
+}
+
+.container_5 .suffix_3 {
+	padding-right:546px;
+}
+
+.container_5 .suffix_4 {
+	padding-right:728px;
+}
+
+
+
+/* Push Space >> 5 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_5 .push_1 {
+	left:182px;
+}
+
+.container_5 .push_2 {
+	left:364px;
+}
+
+.container_5 .push_3 {
+	left:546px;
+}
+
+.container_5 .push_4 {
+	left:728px;
+}
+
+
+
+/* Pull Space >> 5 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_5 .pull_1 {
+	left:-182px;
+}
+
+.container_5 .pull_2 {
+	left:-364px;
+}
+
+.container_5 .pull_3 {
+	left:-546px;
+}
+
+.container_5 .pull_4 {
+	left:-728px;
+}
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* typography -------------------------------------*/
+
+#container {
+	float: left;
+	margin:0;
+	padding:0;
+	width: 100%;
+	background-color:transparent;
+}
+
+#content {
+	margin:0;
+	padding:0;
+	background-color:transparent;
+}
+
+body {
+	font-family:"Lucida Grande","Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size:12px;
+	line-height:1.4em;
+	height:100%;
+}
+
+p {
+	font-size:12px;
+	line-height:1.4em;
+	margin-top:0;
+	margin-bottom:0.7em:
+	margin-left:12px !important;
+	margin-right:12px;
+	color:#333;
+}
+
+ul, li 
+#content ul, #content li
+ul a, li a 
+#content ul a, #content li a 
+ul a:visited, li a:visited 
+#content ul a:visited, #content li a:visited {
+	text-decoration:none;
+	list-style-type:none;
+	list-style:none;
+	font-size:12px;
+	line-height:1.4em;
+	padding:0;
+	color:#333;
+}
+
+ul, #content ul {
+	margin-left:12px;
+	margin-right:12px;
+}
+
+h1, h2,
+#content h1, #content h2,
+#content .entry-title {
+  font-family: "ff-enzo-web-1","ff-enzo-web-2","Lucida Grande","Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+  font-style:normal;
+  margin-left:12px;
+  margin-right:12px;
+  color:#333;
+}
+
+#content h1, #content .entry-title {
+	padding-top:6px;
+	font-size:2em !important;
+	font-weight:300;
+	margin-bottom:0.2em;
+}
+
+
+#content .entry-content h2, #content h2, #content h2 a {
+	font-size:1.2em;
+	font-weight:600;
+	font-style:italic;
+	text-transform:uppercase;
+	margin-top:1.4em;
+	margin-bottom:0.7em;
+	color:#777;
+	text-decoration:none;
+}
+
+h4, #content h4 {
+  	margin-left:12px;
+  	margin-right:12px;
+	font-size:12px;
+	font-weight:normal;
+	font-style:italic;
+	line-height:1.4em;
+	color:#333;
+	margin-bottom:1.4em;
+}
+
+h4.cat {
+  	margin-left:12px;
+  	margin-right:12px;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal !important;
+	line-height:1.4em;
+	color:#333;
+	margin-bottom:1.4em;
+	margin-top:0.7em;
+}
+
+h3, #content h3 {
+  	margin-left:12px;
+  	margin-right:12px;
+  	margin-top:0;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.4em;
+	color:#333 !important;
+}
+
+a, a:link, a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+#nav-menu li, #nav-menu a {
+	color:#333;
+}
+
+#nav-menu li a:hover {
+	color:#F7941E;
+	text-decoration:none;
+}
+
+
+h1 a, h1 a:link, h1 a:active, h1 a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	color:#F7941E;
+}
+
+h3 a, h3 a:link, h3 a:visited {
+	color:#333;
+}
+
+h3 a:hover {
+	color:#F7941E;
+	text-decoration:none;
+}
+
+a.post-edit-link {
+	color:#FF7BAC;
+	margin:0;
+}
+
+a:hover.post-edit-link {
+	color:#F7941E;
+}
+
+p.page {
+	margin-top:1.4em;
+}
+
+#content ul.anchors a, #content ul.anchors a:link, #content ul.anchors a:visited  {
+	color:#F7941E;
+	text-decoration:none;
+}
+
+#content ul.anchors a:hover {
+	text-decoration:underline;
+}
+
+a.active_category, #content li.current_page_item a{
+	color:#F7941E !important;
+	text-decoration:none;
+}
+
+/* post -------------------------------------*/
+.single .hentry {
+	margin:0;
+}
+
+.entry-summary {
+	min-height:300px;
+}
+
+#middle-col {
+	padding:0;
+	margin:0;
+}
+
+/* project navigation ---------------------------------*/
+
+#pre-next {
+	background:#fff;
+	padding:0;
+	margin:0;
+	margin-top:12px;
+	height:24px;
+}
+
+.nav-previous {
+	margin-top:5px;
+	margin-left:12px;
+	width:40%;
+}
+
+.nav-next {
+	margin-top:5px;
+	margin-right:12px;
+	width:40%;
+}
+
+/* ---------------------- */
+
+.entry-content {
+	margin:0;
+	padding:0;
+	padding-bottom:3px;
+	position:relative;
+	float:left;
+}
+
+
+/* text box front page ----------------*/
+
+#the-box {
+	margin:0;
+	margin-top:10em;
+	padding:0;
+	height: 352px;
+	background:#000;
+	-moz-border-radius: 176px;
+	-webkit-border-radius: 176px;
+	border-radius: 176px;
+}
+
+#the-box h1 a, #the-box p {
+	color:#fff;
+}
+
+#txt-box {
+	margin:12px;
+	padding:0;
+}
+
+#txt-box p, #txt-box h1 a {
+	color:#000;
+}
+
+/* main part stuff ----------------*/
+
+#main {
+	margin:0;
+	padding:0;
+	background-color:transparent;
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding:0;
+	position:relative;
+	background-color:transparent;
+}
+
+li.space-under {
+	margin-bottom:1.4em;
+}
+
+#footer {
+
+}
+
+/* search --------------*/
+
+form, input, textarea {
+	border:none;
+	font-family:"Lucida Grande","Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size:16px !important;
+	line-height:1.4em;
+	margin-left:12px;
+	margin-top:0.7em;
+}
+
+input {
+	border:solid;
+	border-width:3px;
+	border-color:#E6E6E6;
+	width:94%;
+	margin:0;
+	padding:0;
+	padding-left:4px;
+}
+
+
+
+
+/* background
+----------------------------------------------------------------------------------------------------*/
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+			
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+			
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+		
+@media screen and (max-width: 1024px){
+	img.bg {
+	left: 50%;
+	margin-left: -512px; }
+}
+		
+/* top menu */
+
+#top-menu {
+	width:100%;
+	background-color:#000000;
+	height:2em;
+	z-index:20;
+	position:relative;
+}
+
+#top-menu-content {
+	position:relative;
+	top:-20px !important;
+	z-index:30 !important;
+}
+
+#top-menu-content ul li  {
+	color:#fff !important;
+	display:inline;
+}
+
+.transparency {
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
+	opacity: 0.8;
+}
+
+.rounded {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* Main sidebars */
+#main .widget-area ul {
+
+}
+#main .widget-area ul ul {
+
+}

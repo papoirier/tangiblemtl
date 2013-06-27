@@ -1,0 +1,106 @@
+/* TYPOGRAPHY -------------------------------------- */
+
+@font-face {
+	font-family: "ApercuReg";
+	src: url("../fonts/ApercuRegular.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuMed";
+	src: url("../fonts/ApercuMedium.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuBold";
+	src: url("../fonts/ApercuBold.otf");
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuItalic";
+	src: url("../fonts/ApercuItalic.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+body {
+	font-family: ApercuReg;
+}
+h2 {
+	font-family: ApercuBold;
+	font-size: 1.8em;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+/* header */
+header h1 {
+	font-family: ApercuMed;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 3.5em;
+	color: #FFFFFF;
+}
+header h4 {
+	font-family: ApercuReg;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1em;
+	margin-top:1.4em;
+	color: #FFFFFF;
+}
+header li {
+	color: #FFFFFF;
+	font-family: ApercuReg;
+	display: inline;
+	float: right;
+	margin-top:1.4em;
+}
+header li a {
+	color: #FFFFFF;
+}
+.langue li.active {
+	font-family: ApercuBold;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/* footer */
+#colophon li, #colophon li a {
+	color: gray;
+	display: inline;
+}
+#colophon {
+	display: block;
+	float: none;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+/* CONTENTS -------------------------------------- */
+
+#couverture {
+	background: url(../img/cover.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 30em;
+}
+header {
+	margin-top: 13em;
+}
+
+footer {
+	background-color: #C0C0C0;
+	padding: 2em 0;
+	margin-top: 3em;
+}
