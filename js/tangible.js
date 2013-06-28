@@ -47,6 +47,7 @@ $(document).ready(function() {
 			$("#cover").html("<div class=\"container\"><div class=\"site_title\"></div></div>");
 			$("#undercover.container > .row > .tagline").html("<div class=\"container\"><div class=\"row\"><div class=\"span6 tagline\"></div></div></div></div>");
 			$("section").html("<div class=\"container\"></div>");
+			$("section#faq").html("<div class=\"container\"><h1></h1><ul></ul></div>");
 			$("footer > .container > .row > .span3").empty();
 			
 			/*
@@ -73,7 +74,7 @@ $(document).ready(function() {
 				$("#events" + inContainer).append('<h1>' + data.events.title.en + '</h1>');
 				$("#services" + inContainer).append('<h1>' + data.services.title.en + '</h1>');
 				$("#mission" + inContainer).append('<h1>' + data.mission.title.en + '</h1>');
-				$("#faq" + inContainer).append('<h1>' + data.faq.title.en + '</h1>');
+				$("#faq" + inContainer).append(data.faq.title.en);
 				// footer
 				$(inFooter + ".links").append('<h4>' + data.footer.links.title.en + '</h4>');
 				$(inFooter + ".news").append('<h4>' + data.footer.news.title.en + '</h4>');
@@ -128,7 +129,7 @@ $(document).ready(function() {
 				$("#events" + inContainer).append('<h1>' + data.events.title.fr + '</h1>');
 				$("#services" + inContainer).append('<h1>' + data.services.title.fr + '</h1>');;
 				$("#mission" + inContainer).append('<h1>' + data.mission.title.fr + '</h1>');
-				$("#faq" + inContainer).append('<h1>' + data.faq.title.fr + '</h1>');
+				$("#faq" + inContainer + "> h1").append(data.faq.title.fr);
 				// footer
 				$(inFooter + ".links").append('<h4>' + data.footer.links.title.fr + '</h4>');
 				$(inFooter + ".news").append('<h4>' + data.footer.news.title.fr + '</h4>');
@@ -152,7 +153,7 @@ $(document).ready(function() {
 					$("#mission" + inContainer).append('<p>' + data.mission.copy.fr[i] + '</p>');
 				}
 				for (var i = 0; i < data.faq.copy.fr.length; i++) {
-					$("#faq" + inContainer).append('<p>' + data.faq.copy.fr[i] + '</p>');
+					$("#faq" + inContainer + " > ul").append('<li>' + data.faq.copy.fr[i] + '</li>');
 				}
 				// footer
 				var openUl = $(inFooter + ".span3").append('<ul>');

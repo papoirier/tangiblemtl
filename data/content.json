@@ -144,7 +144,7 @@
             },
             "hyperlinks": {
                 "fr": [
-                    "<a href=\"#produits\">Produits</a>",
+                    "<a href=\"#products\">Produits</a>",
                     "<a href=\"#realisations\">Réalisations</a>",
                     "<a href=\"#events\">Événements à venir</a>",
                     "<a href=\"#services\">Services</a>",
@@ -152,7 +152,7 @@
                     "<a href=\"#faq\">FAQ</a>"
                 ],
                 "en": [
-                    "<a href=\"#produits\">Products</a>",
+                    "<a href=\"#products\">Products</a>",
                     "<a href=\"#realisations\">Realisations</a>",
                     "<a href=\"#events\">Events to come</a>",
                     "<a href=\"#services\">Services</a>",
