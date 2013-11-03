@@ -1,0 +1,184 @@
+/* COLORS ---------------------------- */
+@red:			#842210;
+@white:			#FFFFFF;
+@aqua:			#00ACF0;
+@blue:			#00DDDD;
+
+@pink:			#D47B61;
+@purple:		#6B5A68;
+@green:			#9AA688;
+@darkgreen:		#124B48;
+@darkergreen:	#09362B;
+@lightgray:		#E7E8E8;
+
+@menu:			hsla(1, 5%, 5%, 0.6);
+@menu_hover:	hsla(1, 5%, 5%, 1);
+
+/* TYPOGRAPHY -------------------------------------- */
+@font-face {
+	font-family: "ApercuReg";
+	src: url("../fonts/ApercuRegular.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuMed";
+	src: url("../fonts/ApercuMedium.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuBold";
+	src: url("../fonts/ApercuBold.otf");
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "ApercuItalic";
+	src: url("../fonts/ApercuItalic.otf");
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+}
+body {
+	font-family: ApercuReg;
+}
+h1, h2, h3, h4, h5 {
+	font-family: ApercuBold;
+}
+h2 {
+	font-size: 1.8em;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+/* header */
+#cover h1 {
+	font-family: ApercuMed;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 3.5em;
+	color: #FFFFFF;
+}
+#undercover h4 {
+	font-family: ApercuReg;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1em;
+	margin-top:1.4em;
+	color: #FFFFFF;
+}
+
+/* footer */
+#colophon li, #colophon li a {
+	color: gray;
+	display: inline;
+}
+#colophon {
+	display: block;
+	float: none;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+
+/* CONTENTS -------------------------------------- */
+
+#cover {
+	background: url(../img/cover.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 30em;
+}
+
+.site_title {
+	margin-top: 13em;
+}
+
+footer {
+	background-color: #C0C0C0;
+	padding: 2em 0;
+	margin-top: 3em;
+}
+
+/* NAV  ------------------------------ */
+header.navbar {
+	float: right;
+	left: auto;
+	right: 0px;
+}
+li.nav-link a {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	font-family: "ApercuBold";
+	color: @menu;
+	
+}
+@lweight: 2px;
+
+li.nav-link.active a {
+	/*
+	border-right: @lweight solid @menu;
+	padding-right: 15px-@lweight;
+	*/
+}
+
+li.nav-link a:hover {
+	background-color: transparent;
+	color: @menu_hover;
+}
+
+
+
+header ul.nav, header ul.nav .nav-link .dot  {
+	float: right;
+	text-align: right;
+}
+header nav.navbar-collapse {
+  max-height: none;
+}
+#nav-container {
+  display: table;
+  float: right;
+}
+#nav-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-toggle {
+  background-color: @red;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: @white;
+}
+
+/* inner dot */
+header ul.nav .active:after {
+
+	position:absolute;
+	content:'';
+	height:8px;
+	width:8px;
+	top:15px;
+	right:1px;
+	border-radius:4px;
+	background: @menu;
+	-webkit-transform:scale(.5);
+	   -moz-transform:scale(.5);
+	        transform:scale(.5);
+	
+
+}
+header ul.nav .nav-link.active .dot:after {
+	background:transparent;
+}

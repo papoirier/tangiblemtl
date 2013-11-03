@@ -4,12 +4,10 @@
 	<title>Tangible Studio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="feutre, design, textile, design textile, montréal, 
+   	<meta name="description" content="feutre, design, textile, design textile, montréal, 
 		durable, éco-design, québec, local">
-   <meta name="author" content="http://papoirier.org">
-	<link href="css/reset.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+   	<meta name="author" content="http://papoirier.org">
+   	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/tangible.css" rel="stylesheet">
    <!--[if lt IE 9]>
      <script src="js/html5shiv.js"></script>
@@ -21,25 +19,70 @@
 	<link rel="shortcut icon" href="img/ico/favicon.png">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="10">
+	    <!-- MENU - - - - - - - - - - - - - - - - -->
+  <header class="navbar navbar-fixed-top bs-docs-nav col-md-3" role="banner">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div id="nav-container">
+      <div id="nav-inner">
+        <nav id="navbar" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav nav-stacked">
+            <li class="nav-link">
+              <a href="#products"  title="Intro" data-placement="left">Produits</a>
+            </li>
+            <li class="nav-link">
+              <a href="#realisations" title="Vision" data-placement="left">Réalisations</a>
+            </li>
+            <li class="nav-link">
+              <a href="#events" title="Connected Safety" data-placement="left">Événements</a>
+            </li>
+            <li class="nav-link">
+              <a href="#services" title="Good Driving" data-placement="left">Services</a>
+            </li>
+            <li class="nav-link">
+              <a href="#mission" title="Suites" data-placement="left">Mission</a>
+            </li>
+            <li class="nav-link">
+              <a href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
 <div id="wrap">	
 	<!-- COVER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<header>
-		<div id="cover" class="container">
-		</div> <!-- #cover -->
-		<div id="undercover" class="container">
-			<div class="row">
-				<div class="tagline span6">
-				</div> <!-- .tagline -->
-				<div class="language span6">
-					<select id="lang_selector">
-						<option value="fr_lang">Français</option>
-						<option value="en_lang">English</option>
-					</select>
-				</div> <!-- .tagline -->
-			</div> <!-- .row -->
-		</div> <!-- #cover -->
-	</header>
+	<section id="cover">
+		<div class="container">
+			
+			<div id="site_title">
+				<div class="row"></div>
+			</div> <!-- #site_title -->
+			
+			<div id="undercover">
+				<div class="row">
+					<div class="tagline col-md-6"></div> <!-- .tagline -->
+					<div class="language col-md-6">
+						<select id="lang_selector">
+							<option value="fr_lang">Français</option>
+							<option value="en_lang">English</option>
+						</select>
+					</div> <!-- .language -->
+				</div> <!-- .row -->
+			</div> <!-- #undercover -->
+
+		</div> <!-- .container -->
+	</section>
 	
 	<!-- PRODUCTS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
 	<section id="products">
@@ -74,10 +117,10 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="links span3"></div>
-				<div class="news span3"></div>
-				<div class="medias span3"></div>
-				<div class="contact span3"></div>
+				<div class="links col-md-3"></div>
+				<div class="news col-md-3"></div>
+				<div class="medias col-md-3"></div>
+				<div class="contact col-md-3"></div>
 			</div>
 		</div>
 	</footer>
@@ -86,6 +129,7 @@
 <!-- JS - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/tangible.js"></script>
 <!-- script src="js/analytics.js"></script -->
 </body>
