@@ -1,0 +1,73 @@
+/* NAV  ------------------------------ */
+header.navbar {
+	float: right;
+	left: auto;
+	right: 0px;
+}
+li.nav-link a {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	font-family: "BrandonTextBold";
+	color: @menu;
+	
+}
+@lweight: 2px;
+
+li.nav-link.active a {
+	/*
+	border-right: @lweight solid @menu;
+	padding-right: 15px-@lweight;
+	*/
+}
+
+li.nav-link a:hover {
+	background-color: transparent;
+	color: @menu_hover;
+}
+
+
+
+header ul.nav, header ul.nav .nav-link .dot  {
+	float: right;
+	text-align: right;
+}
+header nav.navbar-collapse {
+  max-height: none;
+}
+#nav-container {
+  display: table;
+  float: right;
+}
+#nav-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.navbar-toggle {
+  background-color: @red;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: @white;
+}
+
+/* inner dot */
+header ul.nav .active:after {
+
+	position:absolute;
+	content:'';
+	height:8px;
+	width:8px;
+	top:15px;
+	right:1px;
+	border-radius:4px;
+	background: @menu;
+	-webkit-transform:scale(.5);
+	   -moz-transform:scale(.5);
+	        transform:scale(.5);
+	
+
+}
+header ul.nav .nav-link.active .dot:after {
+	background:transparent;
+}

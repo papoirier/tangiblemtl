@@ -9,6 +9,54 @@
         		"img/cover.jpg"
         ]
     },
+    "about": {
+        "title": {
+            "fr": "Tangible Studio",
+            "en": "Tangible Studio"
+        },
+        "copy": {
+            "fr": [
+                "Tangible Studio est une entreprise Montréalaise qui fabrique des feutres à partir de matières recyclées au Québec et offerts dans une gamme de couleur complète. Jusqu’à ce jour — et à notre connaissance —, Tangible Studio est la seule entreprise au monde  à produire ce type de feutre.",
+                "L'entreprise offre également des services de consultation en design et développement de produits en feutre faits sur mesure."
+            ],
+            "en": [
+                "Tangible Studio produces goddam good felt."
+            ]
+        },
+        "images": []
+    },
+    "services": {
+        "title": {
+            "fr": "Services",
+            "en": "Services"
+        },
+        "copy": {
+            "fr": [
+                "Tangible Studio fabrique des produits en feutre pour espaces de vie, tels des recouvrements pour murs et des plafonds, ainsi que des divisions d’espace suspendues ou auto-portantes, qui répondent aux besoins de confort sonore et esthétiques d'espaces intérieurs.",
+                "L'entreprise peut contribuer à la conception, stratégique comme technique, d'un produit ou système pour une firme d'architecture  ou de design d'intérieur qui désire intégrer du feutre à un espace. Tangible Studio est également ouvert a toutes formes de collaboration afin d'intégrer son feutre éco-responsable a des produits existants."
+            ],
+            "en": [
+                "Tangible Studio produces goddam good felt."
+            ]
+        },
+        "images": []
+    },
+    "felt": {
+        "title": {
+            "fr": "Feutre",
+            "en": "Felt"
+        },
+        "copy": {
+            "fr": [
+                "Les feutres de Tangible Studio sont composés à 80% de vêtements recyclés, ce qui permet de les détourner de l’enfouissement ou de l’incinération. 20% de fibres régénérées sont utilisées pour assurer la stabilité de la matière.",
+                "Au Québec, 117 300 tonnes de textile sont destinés au recyclage et au ré- emploi par année. Seulement 70 400 tonnes sont mises en valeur (Recyc-Québec, 2008)."
+            ],
+            "en": [
+                "Tangible Studio produces goddam good felt."
+            ]
+        },
+        "images": []
+    },
     "products": {
         "title": {
             "fr": "Produits",
@@ -24,12 +72,12 @@
         },
         "images": [
             "img/produits/hex-01.jpg",
-				"img/produits/ps-01.jpg",
+			"img/produits/ps-01.jpg",
             "img/produits/ps-02.jpg",
             "img/produits/ps-03.jpg",
-				"img/produits/ps-04.jpg",
-				"img/produits/ps-05.jpg",
-				"img/produits/ps-06.jpg"
+			"img/produits/ps-04.jpg",
+			"img/produits/ps-05.jpg",
+			"img/produits/ps-06.jpg"
         ]
     },
     "realisations": {
@@ -49,54 +97,6 @@
             "img/realisations/cercle-01.jpg",
             "img/realisations/cercle-02.jpg"
         ]
-    },
-    "events": {
-        "title": {
-            "fr": "Événements à venir",
-            "en": "Events to come"
-        },
-        "copy": {
-            "fr": [
-                "De notre point de vue, toujours rien à l'horizon."
-            ],
-            "en": [
-                "Nothing in sight as far as we can see."
-            ]
-        },
-        "images": []
-    },
-    "services": {
-        "title": {
-            "fr": "Services",
-            "en": "Services"
-        },
-        "copy": {
-            "fr": [
-                "Tangible Studio produit des feutres éco-responsables, fabriqués entièrement au Québec et offerts dans une gamme de couleur complète.",
-                "L'entreprise fabrique des produits pour espaces de vie, tels des recouvrements pour murs et des plafonds, ainsi que des divisions d’espace suspendues ou auto-portantes, qui répondent aux besoins de confort sonore et visuel des espaces intérieurs.",
-                "Tangible Studio offre des services de consultation en design textile, industriel et intérieur. À titre d'exemple, l'entreprise peut aider conceptuellement et techniquement une firme d'architecture à intégrer du feutre à un espace.",
-                "L'entreprise désire repousser les limites de la matière qu'est le feutre et désire collaborer avec experts et industriels pour créer de nouveaux produits."
-            ],
-            "en": [
-                "Tangible Studio produces goddam good felt."
-            ]
-        },
-        "images": []
-    },
-    "mission": {
-        "title": {
-            "fr": "Mission",
-            "en": "Mission"
-        },
-        "copy": {
-            "fr": [
-                "Tangible Studio est une jeune entreprise qui veut offrir une alternative — à la fois profondément québécoise et à portée globale, soucieuse de l'environnement, de son contexte social et d'esthétique — aux gens qui désire incorporer du feutre à leur milieu de vie."
-            ],
-            "en": [
-                "Tangible Studio hazza mission."
-            ]
-        },
-        "images": []
     },
     "team": {
         "title": {
@@ -207,4 +207,4 @@
             ]
         }
     }
-}
+}   

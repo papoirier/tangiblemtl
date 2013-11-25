@@ -9,122 +9,284 @@
    	<meta name="author" content="http://papoirier.org">
    	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/tangible.css" rel="stylesheet">
-   <!--[if lt IE 9]>
-     <script src="js/html5shiv.js"></script>
-   <![endif]-->
-   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/144.png">
-   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/114.png">
-   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png">
-	<link rel="apple-touch-icon-precomposed" href="img/ico/57.png">
 	<link rel="shortcut icon" href="img/ico/favicon.png">
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="10">
-	    <!-- MENU - - - - - - - - - - - - - - - - -->
-  <header class="navbar navbar-fixed-top bs-docs-nav col-md-3" role="banner">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <div id="nav-container">
-      <div id="nav-inner">
-        <nav id="navbar" class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-          <ul class="nav nav-stacked">
-            <li class="nav-link">
-              <a href="#products"  title="Intro" data-placement="left">Produits</a>
-            </li>
-            <li class="nav-link">
-              <a href="#realisations" title="Vision" data-placement="left">Réalisations</a>
-            </li>
-            <li class="nav-link">
-              <a href="#events" title="Connected Safety" data-placement="left">Événements</a>
-            </li>
-            <li class="nav-link">
-              <a href="#services" title="Good Driving" data-placement="left">Services</a>
-            </li>
-            <li class="nav-link">
-              <a href="#mission" title="Suites" data-placement="left">Mission</a>
-            </li>
-            <li class="nav-link">
-              <a href="#faq">FAQ</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-
-<div id="wrap">	
-	<!-- COVER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="cover">
+<!-- MENU - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div id="navcolor" class="intro">
 		<div class="container">
-			
-			<div id="site_title">
-				<div class="row"></div>
-			</div> <!-- #site_title -->
-			
-			<div id="undercover">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse">
 				<div class="row">
-					<div class="tagline col-md-6"></div> <!-- .tagline -->
-					<div class="language col-md-6">
-						<select id="lang_selector">
-							<option value="fr_lang">Français</option>
-							<option value="en_lang">English</option>
-						</select>
-					</div> <!-- .language -->
-				</div> <!-- .row -->
-			</div> <!-- #undercover -->
-
+					<div class="col-md-12">
+						<ul class="nav navbar-nav">
+							<li><a href="#about" title="Intro" data-placement="left">Tangible Studio</a></li>
+							<li><a href="#services" title="Good Driving" data-placement="left">Services</a></li>
+							<li><a href="#felt" title="Feutre / Felt" data-placement="left">Feutre</a></li>
+							<li><a href="#products"  title="Intro" data-placement="left">Produits</a></li>
+							<li class="hidden"><a href="#realisations" title="Réalisations" data-placement="left">Réalisations</a></li>
+							<li class="hidden"><a href="#team" title="Équipe" data-placement="left">Équipe</a></li>
+							<li class="hidden"><a href="#faq" title="FAQ" data-placement="left">FAQ</a></li>
+							<li><a href="#footer" title="colophon" data-placement="left">Colophon</a></li>
+							<li>
+								<select id="lang_selector">
+									<option value="fr_lang">Français</option>
+									<option value="en_lang">English</option>
+								</select>
+							</li>
+							<li><a href="mailto:info@tangiblemtl.ca" title="email" data-placement="left">info@tangiblemtl.ca</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div> <!-- .container -->
-	</section>
+	</div> <!-- #navcolor -->
+</nav>
+  
+<!-- COVER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<header id="cover" class="full">
+	<div class="container">
+		<div class="align-out">
+			<div class="align-in">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Tangible Studio</h1>
+						<h3>Feutres québécois éco-responsables</h3>
+					</div> 
+				</div> <!-- .row -->
+			</div>
+		</div>
+	</div> <!-- .container -->
+</header>
+
+<!-- ABOUT  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="about" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Tangible Studio</h1>
+				<h4>Tangible Studio est une entreprise Montréalaise qui fabrique des feutres à partir de matières recyclées au Québec et offerts dans une gamme de couleur complète. Jusqu’à ce jour — et à notre connaissance —, Tangible Studio est la seule entreprise au monde à produire ce type de feutre.</h4>
+				<h4>L'entreprise offre également des services de consultation en design et développement de produits en feutre faits sur mesure."</h4>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- SERVICES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="services" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Services</h1>
+				<h4>Tangible Studio fabrique des produits en feutre pour espaces de vie, tels des recouvrements pour murs et plafonds, ainsi que des divisions d’espace suspendues ou auto-portantes, qui répondent aux besoins de confort sonore et esthétiques des espaces intérieurs.</h4>
+				<h4>Tangible Studio peut collaborer à la conception, stratégique comme technique, de produits ou systèmes incorporant du feutre. À titre d'exemple, l'entreprise pourrait concevoir une pièce sur mesure pour une firme d'architecture ou de design d'intérieur qui désire intégrer son feutre éco-responsable à un espace, tout comme elle pourrait travailler avec une industrielle à incorporer son feutre à la conception d'un nouveau produit.</h4>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- FELT  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="felt" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Le feutre</h1>
+				<h4>Les feutres de Tangible Studio sont composés à 80% de vêtements recyclés, ce qui permet de les détourner de l’enfouissement ou de l’incinération. 20% de fibres régénérées sont utilisées pour assurer la stabilité de la matière.</h4>
+				<h3>Cycle de vie des produits en feutres Tangible Studio</h3>
+				<img src="img/cycle-de-vie.png" class="img-responsive" alt="diagramme du cycle de vie des feutres">
+				<h3>Couleurs</h3>
+				<p>Les couleurs sont obtenues sans l'ajout de colorants.</p>
+				<img src="img/pastilles.jpg" class="img-responsive" alt="couleurs des feutres">
+				<div class="panel panel-default">
+				  <div class="panel-body">
+				    Chaque année au Québec, 117 300 tonnes de textiles sont destinés au recyclage et au réemploi. Seulement 70 400 tonnes sont mises en valeur (Recyc-Québec, 2008).
+				  </div>
+				</div>
+				
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- PRODUCTS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
+<section id="products" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Produits</h1>
+				<h4>Tous les produits que vend Tangible Studio sont assemblés sans coutures ni colle — que du feutre recyclé !</h4>
+					<!-- PARE-SOLEIL -->
+					<div class="product pare-soleil">
+						<h3>Pare-Soleil</h3>
+						<h5>Les Pare-Soleil sont en vente à la <a href="http://shop.galeriezoneorange.com">Galerie Zone Orange</a>, située dans le Vieux-Montréal.</h5>
+						<h4>Carré Saint-Louis</h4>
+							<img src="img/products/pare-soleil/ps-01.jpg" class="img-responsive" alt="Carré Saint-Louis">
+							<img src="img/products/pare-soleil/ps-02.jpg" class="img-responsive" alt="Carré Saint-Louis, détail">
+							<p>Couleurs disponibles : Chocolat, Prune, Bleu pâle, Gris.</p>
+							<p>Dimensions : 18" x 76”</p>
+						<h4>Rue Saint-Viateur</h4>
+							<img src="img/products/pare-soleil/ps-03.jpg" class="img-responsive" alt="Rue Saint-Viateur">
+							<img src="img/products/pare-soleil/ps-04.jpg" class="img-responsive" alt="Rue Saint-Viateur, détail">
+							<p>Couleurs disponibles : Chocolat, Prune, Bleu pâle, Gris.</p>
+							<p>Dimensions : 18" x 76”</p>
+						<h4>Avenue Des Pins</h4>
+							<img src="img/products/pare-soleil/ps-05.jpg" class="img-responsive" alt="Avenue Des Pins">
+							<img src="img/products/pare-soleil/ps-06.jpg" class="img-responsive" alt="Avenue Des Pins, détail">
+							<p>Couleurs disponibles : Chocolat, Prune, Bleu pâle, Gris.</p>
+							<p>Dimensions : 18" x 76”</p>
+						
+					<!-- HEXALOBE -->
+					<div class="product hexalobe">
+						<h3>Hexalobe</h3>
+						<h5>Choisissez les couleurs de votre choix et amusez vous avec les motifs ! Intéressés ? <a href="mailto:info@tangiblemtl.ca">Contactez-nous</a> pour une estimation des coûts !</h5>
+							<img src="img/products/hexalobe/hex-01.jpg" class="img-responsive" alt="Hexalobe">
+							<img src="img/products/hexalobe/hex-02.jpg" class="img-responsive" alt="Hexalobe, détail">
+					</div>
+					<!-- TRILOBE -->
+					<div class="product trilobe">
+						<h3>Trilobe</h3>
+						<h5>Choisissez les couleurs de votre choix et amusez vous avec les motifs ! Intéressés ? <a href="mailto:info@tangiblemtl.ca">Contactez-nous</a> pour une estimation des coûts !</h5>
+							<img src="img/products/trilobe/tri-01.jpg" class="img-responsive" alt="Trilobe">
+					</div>
+					<!-- PANIERS -->
+					<div class="product panier">
+						<h3>Paniers</h3>
+						<h5>Disponibles en trois grandeurs (12, 9 et 6 pouces) et Produits sur commande. Intéressés ? <a href="mailto:info@tangiblemtl.ca">Contactez-nous</a> pour une estimation des coûts !</h5>
+							<img src="img/products/panier/pan-01.jpg" class="img-responsive" alt="Panier">
+							<img src="img/products/panier/pan-02.jpg" class="img-responsive" alt="Panier">
+							<img src="img/products/panier/pan-03.jpg" class="img-responsive" alt="Panier">
+					</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- REALISATIONS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="realisations" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Réalisations</h1>
+				<div class="realisation">
+					<h3>Yogourts Liberté</h3>
+					<img src="img/realisations/liberte/lib-01.jpg" class="img-responsive" alt="Yogourts Liberté, hexalobe">
+					<img src="img/realisations/liberte/lib-02.jpg" class="img-responsive" alt="Yogourts Liberté, oeuvre, processus">
+					<p>En partenariat avec <a href="">Madame Chose</a>, designer d'intérieur.</p>
+				</div>
+				<div class="realisation">
+					<h3>Cercle Carré</h3>
+					<img src="img/realisations/cercle/cc-01.jpg" class="img-responsive" alt="Cercle Carré">
+					<img src="img/realisations/cercle/cc-01.jpg" class="img-responsive" alt="Cercle Carré, trilobe">
+				</div>
+				<div class="realisation">
+					<h3>Résidences privées</h3>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- FAQ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="faq" class="full">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1>Foire aux questions</h1>
+				<h4></h4>
+				<h4></h4>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+
+<!-- CONTACT  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<footer >
 	
-	<!-- PRODUCTS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
-	<section id="products">
-		<div class="container"></div>
-	</section>
-	
-	<!-- REALISATIONS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="realisations">
-	</section>
-	
-	<!-- EVENTS  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="events">
-	</section>
-	
-	<!-- SERVICES  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="services">
-	</section>
-	
-	<!-- MISSION - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="mission">
-	</section>
-	
-	<!-- TEAM  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="team">
-	</section>
-	
-	<!-- QUESTIONS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	<section id="faq">
-	</section>
-	
-	<!-- FOOTER  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- TEAM  - - - - - - - - - - - - - - - - -->
+	<section id="team" class="full">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1>Équipe</h1>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h3>Marianne Coquelicot Mercier</h3>
+					<h5 class="work-title">Direction et création</h5>
+					<p>Depuis plus de dix ans, Marianne-Coquelicot Mercier évolue dans le milieu de la mode, du design industriel et de l’entrepreunariat. Elle détient un baccalauréat en design industriel de l’Université de Montréal (2008) ainsi qu’un diplôme d’études collégiales en design de mode du Collège Lasalle (2000).</p>
+					<p>En 2010, Marianne fonde Tangible Studio après plus de 2 ans de recherche et développement appuyé par Denyse Roy (professeur à l’École de design industriel de l’Université de Montréal) ainsi que les principaux acteurs industriel des secteurs de la récupération des vêtements, l’effilochage et le feutrage.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Marie-Claude Tessier</h3>
+					<h5 class="work-title">Conseillère en design d'intérieur</h5>
+					<h3>Denyse Roy</h3>
+					<h5 class="work-title">Conseillère en développement textile</h5>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</section> <!-- #team -->
+		<!-- PRESSE ETC  - - - - - - - - - - - - - - - - -->
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="links col-md-3"></div>
-				<div class="news col-md-3"></div>
-				<div class="medias col-md-3"></div>
-				<div class="contact col-md-3"></div>
+				<div class="col-md-3">
+					<h3>Dossier de presse</h3>
+					<ul>
+						<li><a href=""></a>Télécharger le dossier de presse (.zip, 2 Mb)</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Revue de presse</h3>
+					<ul>
+						<li><a href=""></a>Revue Intérieurs</li>
+						<li><a href=""></a>Revue Index Design</li>
+						<li><a href=""></a>Revue Azure</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Médias sociaux</h3>
+					<ul>
+						<li><a href=""></a>Blogue (Tumblr)</li>
+						<li><a href=""></a>Facebook</li>
+						<li><a href=""></a>Infolettre</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Contact</h3>
+					<ul>
+						<li><a href="mailto:info@tangiblemtl.ca">info@tangiblemtl.ca</a></li>
+						<li>Tangible Studio Inc.</li>
+						<li>3484 avenue Laval <br>Montréal (QC) H2X 3C8</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</footer>
-</div> <!-- #wrap -->
 
 <!-- JS - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
